@@ -1,0 +1,1003 @@
+.handshake {
+    background-color: #5a0000
+}
+
+.handshake .container {
+    position: relative;
+    z-index: 10
+}
+
+.handshake__wrapper {
+    background-color: white
+}
+
+.handshake__title {
+    font-size: 32px;
+    color: #5a0000;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.handshake__subtitle {
+    font-family: "Super Light";
+    font-weight: 300;
+    text-transform: none;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    color: #5a0000;
+    text-align: center
+}
+
+.handshake__icon {
+    width: 158px;
+    height: 135px;
+    margin: 30px auto;
+    margin-bottom: 0px
+}
+
+.handshake__icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain
+}
+
+.section-border {
+    width: 100%
+}
+
+.section-border img {
+    height: auto;
+    width: 100%;
+    z-index: 5;
+    object-fit: cover;
+    object-position: bottom
+}
+
+.section-border--top {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: end;
+    align-items: flex-end
+}
+
+.section-border--top img {
+    transform: translateY(5px)
+}
+
+.section-border--bottom {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    transform: rotate(180deg);
+    margin-bottom: -2px
+}
+
+.section-border--bottom img {
+    transform: translateY(5px)
+}
+
+.section-border--white {
+    background-color: #5a0000;
+    margin-top: -3px
+}
+
+.section-border--red {
+    background-color: white
+}
+
+.skills {
+    background-color: #5a0000;
+    margin-bottom: -2px;
+    padding-top: 75px
+}
+
+.skills__title {
+    font-weight: 700;
+    color: #fbe8b4;
+    margin-bottom: 75px;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.skills__list {
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    margin-right: -10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+.skills__image {
+    width: 115px;
+    height: 115px
+}
+
+.skills__image img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center
+}
+
+.skills__item {
+    padding: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: calc(100% / 4);
+    margin-bottom: 75px
+}
+
+.skills__text {
+    max-width: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    opacity: 0.9;
+    margin-top: 30px
+}
+
+.stack {
+    background-color: #5a0000;
+    margin-bottom: -2px
+}
+
+.stack__title {
+    font-weight: 700;
+    color: #fbe8b4;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fbe8b4
+}
+
+.stack__items {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    width: calc(100% + 16px);
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.stack__item {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 75px;
+    width: calc((100% / 8));
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.stack__item img {
+    max-height: 105px;
+    width: 100%;
+    object-fit: contain;
+    object-position: center center
+}
+
+.founders {
+    background-color: #5a0000;
+    margin-bottom: -2px
+}
+
+.founders .container {
+    position: relative;
+    z-index: 10
+}
+
+.founders__wrapper {
+    background-color: white
+}
+
+.founders__title {
+    font-size: 30px;
+    color: #5a0000;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 60px
+}
+
+.founders__items {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    margin-right: -20px
+}
+
+.founders .founder {
+    margin-bottom: 75px
+}
+
+.founder {
+    width: calc(100% / 4);
+    padding-right: 20px;
+    padding-left: 20px
+}
+
+.founder__picture {
+    width: 100%;
+    height: 190px;
+    margin-bottom: 25px
+}
+
+.founder__picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px
+}
+
+.founder__name {
+    font-size: 30px;
+    color: #5a0000;
+    margin-bottom: 20px
+}
+
+.founder__status {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 30px
+}
+
+.founder__link {
+    display: block;
+    height: 39px;
+    width: 39px;
+    margin-right: 10px
+}
+
+.founder__link img {
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: contain
+}
+
+.founder__divider {
+    height: 39px;
+    width: 2px;
+    background-color: #5a0000;
+    margin-right: 10px
+}
+
+.founder__role {
+    font-size: 18px;
+    color: #5a0000;
+    font-weight: 300
+}
+
+.founder__description {
+    font-size: 18px;
+    font-weight: 300;
+    color: #5a0000
+}
+
+.achievements__wrapper {
+    background-color: #5a0000
+}
+
+.achievements__title {
+    font-size: 30px;
+    color: #fbe8b4;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px
+}
+
+.achievements__logo {
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px
+}
+
+.achievements__logo img {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    object-position: center
+}
+
+.achievements__pre-timeline {
+    width: 2px;
+    height: 50px;
+    background-color: #fbe8b4;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative
+}
+
+.achievements__pre-timeline::before {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #fbe8b4;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    top: -16px;
+    left: -7px;
+    content: " "
+}
+
+.timeline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+    border-top: 2px solid #fbe8b4;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 28px;
+    padding-bottom: 50px;
+    position: relative;
+    margin-bottom: -2px
+}
+
+.timeline::after {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    top: -9px;
+    right: -16px;
+    border: 2px solid #fbe8b4;
+    border-radius: 50%;
+    content: " ";
+    box-sizing: border-box
+}
+
+.timeline::before {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    top: -9px;
+    left: -16px;
+    border: 2px solid #fbe8b4;
+    border-radius: 50%;
+    content: " ";
+    box-sizing: border-box
+}
+
+.timeline__date {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 160px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 24px
+}
+
+.timeline__date span {
+    color: #fbe8b4
+}
+
+.timeline__date::before {
+    height: calc(50% - 8px);
+    width: 2px;
+    position: absolute;
+    right: 0px;
+    content: " ";
+    background-color: #fbe8b4;
+    top: 0px
+}
+
+.timeline__date::after {
+    height: calc(50% - 8px);
+    width: 2px;
+    position: absolute;
+    right: 0px;
+    content: " ";
+    background-color: #fbe8b4;
+    bottom: 0px
+}
+
+.timeline__date:first-of-type::before {
+    height: calc(50% + 20px);
+    top: auto;
+    bottom: calc(50% + 8px)
+}
+
+.timeline__date--last {
+    height: 50px
+}
+
+.timeline__date--last::after {
+    width: 0px
+}
+
+.timeline__dot {
+    position: absolute;
+    right: -7px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 16px;
+    width: 16px;
+    border: 2px solid #fbe8b4;
+    border-radius: 50%
+}
+
+.timeline__info {
+    width: 760px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+    padding-left: 40px;
+    padding-right: 30px;
+    max-width: 800px
+}
+
+.social {
+    width: calc(100% + 10px);
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 20px
+}
+
+.social a {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+.contact__wrapper {
+    background-color: white;
+    padding-bottom: 40px
+}
+
+.contact__wrapper .container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.contact__title {
+    font-size: 30px;
+    margin-bottom: 35px;
+    width: 100%
+}
+
+.contact__text {
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 230px;
+    margin-bottom: 20px
+}
+
+.contact__text span {
+    font-weight: 700
+}
+
+.contact__link {
+    font-size: 16px;
+    font-weight: 700;
+    max-width: 220px;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    text-decoration: none;
+    position: relative
+}
+
+.contact__link:visited {
+    color: black
+}
+
+.contact__link::after {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    content: " ";
+    bottom: 0px;
+    left: 0px
+}
+
+.contact__info {
+    width: 100%;
+    max-width: 260px;
+    padding-right: 30px
+}
+
+.contact__form {
+    width: 100%;
+    max-width: 600px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.contact__input {
+    width: calc(100% / 2 - 10px);
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 3px solid rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    transition: 200ms ease
+}
+
+.contact__input:focus {
+    border: 3px solid rgba(0, 0, 0, 0.75);
+    outline: none
+}
+
+.contact__textarea {
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    width: 100%;
+    height: 200px;
+    padding: 10px 15px;
+    border: 3px solid rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    transition: 200ms ease;
+    margin-bottom: 20px;
+    resize: none
+}
+
+.contact__textarea:focus {
+    border: 3px solid rgba(0, 0, 0, 0.75);
+    outline: none
+}
+
+.contact__button {
+    font-family: "Merriweather", serif;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: auto;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    height: 44px;
+    background-color: #e30513;
+    padding: 10px 20px;
+    border: 3px solid transparent;
+    transition: 200ms ease
+}
+
+.contact__button:hover {
+    color: #e30513;
+    background-color: transparent;
+    border: 3px solid #e30513
+}
+
+.contact__button:focus {
+    outline: none
+}
+
+.to-top-wrapper {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #5a0000;
+    z-index: 100;
+    cursor: pointer
+}
+
+.to-top-wrapper svg {
+    width: 30px;
+    margin-bottom: 3px
+}
+
+.to-top-wrapper svg path {
+    fill: #5a0000
+}
+
+@media screen and (max-width: 1175px) {
+    .handshake__title {
+        font-size: 28px
+    }
+    .handshake__subtitle {
+        max-width: 540px;
+        font-size: 28px
+    }
+    .handshake__wrapper {
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+    .handshake__icon {
+        margin-top: 20px;
+        width: 120px;
+        height: auto
+    }
+    .skills__title {
+        font-size: 28px
+    }
+    .skills__text {
+        font-size: 28px
+    }
+    .skills__image {
+        width: 100px;
+        height: 100px
+    }
+    .stack__title {
+        font-size: 28px;
+        margin-bottom: 75px
+    }
+    .stack__item img {
+        max-height: 85px
+    }
+    .founders__title {
+        font-size: 28px;
+        margin-bottom: 35px
+    }
+    .founders__items {
+        width: calc(100% + 20px);
+        margin-left: -10px;
+        margin-right: -10px
+    }
+    .founders__wrapper {
+        padding-top: 20px
+    }
+    .founder {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+    .founder__name {
+        font-size: 28px
+    }
+    .founder__role {
+        font-size: 16px
+    }
+    .founder__description {
+        font-size: 16px
+    }
+    .founder__picture {
+        height: 175px;
+        margin-bottom: 20px
+    }
+    .founder__name {
+        margin-bottom: 15px
+    }
+    .founder__status {
+        margin-bottom: 25px
+    }
+    .achievements__title {
+        font-size: 28px
+    }
+    .achievements__wrapper {
+        padding-top: 20px
+    }
+    .timeline__date {
+        width: 130px;
+        font-size: 22px
+    }
+    .timeline__info {
+        max-width: 680px;
+        font-size: 22px
+    }
+    .contact__title {
+        font-size: 28px
+    }
+    .contact__wrapper {
+        padding-top: 20px
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .handshake__title {
+        font-size: 25px;
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px
+    }
+    .handshake__subtitle {
+        font-size: 25px
+    }
+    .skills {
+        padding-top: 50px
+    }
+    .skills__title {
+        font-size: 25px;
+        margin-bottom: 40px
+    }
+    .skills__text {
+        font-size: 25px
+    }
+    .skills__item {
+        margin-bottom: 50px
+    }
+    .stack {
+        padding-top: 20px;
+        padding-bottom: 40px
+    }
+    .stack__title {
+        font-size: 25px;
+        margin-bottom: 40px
+    }
+    .stack__item {
+        margin-bottom: 45px;
+        width: calc(100% / 4);
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .stack__item img {
+        max-height: 77px;
+        max-width: 100px
+    }
+    .founders__title {
+        font-size: 25px
+    }
+    .founder__name {
+        font-size: 25px
+    }
+    .achievements__title {
+        font-size: 25px;
+        margin-bottom: 20px
+    }
+    .achievements__logo {
+        width: 180px
+    }
+    .timeline__date {
+        width: 100px;
+        font-size: 18px
+    }
+    .timeline__info {
+        width: calc(100% - 100px);
+        padding-left: 20px;
+        padding-right: 10px;
+        font-size: 18px
+    }
+    .contact__title {
+        font-size: 25px
+    }
+    .contact__input {
+        font-size: 16px
+    }
+    .contact__textarea {
+        font-size: 16px
+    }
+    .to-top-wrapper {
+        right: 20px;
+        bottom: 20px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .founders__items {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+    .founders .founder {
+        margin-bottom: 20px
+    }
+    .founder {
+        width: calc(100% / 2)
+    }
+    .founder__picture {
+        height: 40vw
+    }
+    .founder__name {
+        text-align: center
+    }
+    .founder__status {
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .timeline {
+        padding-bottom: 20px
+    }
+    .contact__wrapper .container {
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+    .contact__info {
+        max-width: 100%;
+        text-align: center;
+        padding-right: 0px
+    }
+    .contact__text {
+        margin-left: auto;
+        margin-right: auto
+    }
+    .contact__title {
+        margin-bottom: 20px;
+        text-align: center
+    }
+    .contact__text {
+        margin-bottom: 15px
+    }
+    .contact__link {
+        margin-top: 0px;
+        margin-bottom: 20px
+    }
+    .contact__form {
+        max-width: 100%;
+        padding-top: 15px
+    }
+    .contact__button {
+        margin-right: auto;
+        padding-left: 30px;
+        padding-right: 30px
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .handshake__title {
+        font-size: 20px;
+        max-width: 420px
+    }
+    .handshake__subtitle {
+        font-size: 20px;
+        max-width: 380px
+    }
+    .handshake__icon {
+        width: 100px
+    }
+    .skills__title {
+        font-size: 20px
+    }
+    .skills__text {
+        font-size: 20px;
+        max-width: 160px
+    }
+    .skills__image {
+        width: 80px;
+        height: 80px
+    }
+    .skills__item {
+        width: calc(100% / 2);
+        margin-bottom: 30px
+    }
+    .stack__title {
+        font-size: 20px
+    }
+    .stack__item {
+        width: calc(100% / 4);
+        margin-bottom: 30px
+    }
+    .stack__item img {
+        max-height: 65px
+    }
+    .founders__title {
+        font-size: 20px
+    }
+    .founder__name {
+        font-size: 20px
+    }
+    .founder__role {
+        font-size: 14px
+    }
+    .founder__description {
+        font-size: 14px
+    }
+    .achievements__title {
+        font-size: 20px
+    }
+    .achievements__pre-timeline {
+        display: none
+    }
+    .contact__title {
+        font-size: 20px
+    }
+    .to-top-wrapper {
+        right: 10px;
+        bottom: 10px
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .founders .founder {
+        margin-bottom: 35px
+    }
+    .founder {
+        width: 100%
+    }
+    .founder__name {
+        text-align: center;
+        margin-bottom: 10px
+    }
+    .founder__name br {
+        display: none
+    }
+    .founder__status {
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-bottom: 10px
+    }
+    .founder__link {
+        height: 28px;
+        width: 28px
+    }
+    .founder__divider {
+        height: 16px
+    }
+    .founder__description {
+        text-align: center
+    }
+    .founder__picture {
+        height: calc(100vw - 40px);
+        margin-bottom: 15px
+    }
+    .founder__role {
+        margin-top: 13px
+    }
+    .timeline__date {
+        font-size: 14px;
+        width: 80px;
+        padding-top: 7px;
+        padding-bottom: 7px
+    }
+    .timeline__info {
+        font-size: 14px;
+        width: calc(100% - 80px);
+        padding-top: 7px;
+        padding-bottom: 7px
+    }
+    .skills__image {
+        height: 65px;
+        width: 65px
+    }
+    .skills__text {
+        margin-top: 20px
+    }
+    .contact__input {
+        width: 100%
+    }
+    .contact__button {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .stack__item img {
+        max-height: 50px
+    }
+}
